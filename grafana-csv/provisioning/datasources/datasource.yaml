@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+  - name: CSV Data
+    type: marcusolsson-csv-datasource
+    access: proxy
+    isDefault: true
+    editable: true
+    jsonData:
+      storage: local
+      path: /var/lib/grafana/csv/sample.csv
